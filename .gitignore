@@ -1,0 +1,28 @@
+# --- Python Runtime Caches ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Local Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Heavy Data & Binary Artifacts ---
+# Prevents backing up massive excel sheets or deep learning weights
+data/
+models/
+*.xlsx
+*.csv
+*.pt
+*.bin
+*.h5
+
+# --- IDE Settings & Workspace Metadata ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
